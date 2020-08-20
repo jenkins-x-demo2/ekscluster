@@ -1,9 +1,9 @@
 cluster:
-  clusterName: "ekscluster"
-  environmentGitOwner: "jenkins-x-demo2"
-  environmentGitPublic: true
+  clusterName: ""
+  environmentGitOwner: ""
+  environmentGitPublic: false
   project: ""
-  provider: eks
+  provider: gke
   zone: ""
 gitops: true
 environments:
